@@ -1,0 +1,52 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 85%;
+    margin: auto;
+    background-image: url('https://images.unsplash.com/photo-1605979257913-1704eb7b6246?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80');
+}
+
+main {
+    background-color: rgba(245, 245, 220, 0.719);
+    border: 1px solid black;
+}
+
+/* ######### HEADER */
+
+h1 {
+    text-align: center;
+}
+
+/* ######### MAIN CONTENT */
+
+.cont-form {
+    display: flex;
+    justify-content: center;
+}
+
+.pokemon-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+/* Imagen Pokemon */
+.pokemon {
+    width: 200px;
+}
+
+/* Contenedor Type */
+.pokemon-type {
+    margin: 20px 0;
+}
+
+/* Contenedor Stats */
+.pokemon-stats {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.pokemon-heigth {
+    width: 100%;
+}
